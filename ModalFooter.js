@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import '../../../styles/modal-footer.css'
+import './css/modal-footer.css'
 
 class ModalFooter extends Component {
 

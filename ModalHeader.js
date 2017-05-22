@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../../../styles/modal-header.css'
+import './css/modal-header.css'
 
 const ModalHeader = ({ title, close, noClose }) =>
   <div className='modal-header'>

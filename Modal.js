@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import '../../../styles/modal.css'
+import './css/modal.css'
 
 class Modal extends Component {
   constructor(props) {

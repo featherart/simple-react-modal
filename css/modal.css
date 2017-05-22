@@ -1,0 +1,56 @@
+.modal-container {
+  .open {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .open {
+    animation-duration: 0.3s;
+    animation-name: fadein;
+    animation-timing-function: ease-in;
+  }
+
+  .modal {
+    background-color: #171a26;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+
+    .header {
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .body {
+      padding-top: 20px;
+    }
+  }
+}
+
+/*
+  to keep background from scrolling
+  when modal is open
+*/
+.no-scroll {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
